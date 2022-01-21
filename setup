@@ -1,0 +1,41 @@
+$ git clone https://github.com/riscv-software-src/riscv-isa-sim.git riscv-isa-sim 
+
+$ cd riscv-isa-spike 
+
+$ apt-get install device-tree-compiler 
+
+$ mkdir build 
+
+$ cd build 
+
+$ ../configure --prefix=$RISCV 
+
+$ make 
+
+$ [sudo] make install 
+
+$ cd .. 
+
+$ git clone https://github.com/riscv-software-src/riscv-ok.git riscv-pk 
+
+$ cd riscv-pk 
+
+$ mkdir build 
+
+$ cd build 
+
+$ ../configure --prefix=$RISCV --host=riscv64-unknown-elf 
+
+$ make 
+
+$ make install 
+
+$ cd .. 
+
+$ git clone https://github.com/Imperas/riscv-toolchains -b rvk-0.8.1-scalar 
+
+$ cd ../riscv-toolchains/Linux64/bin 
+
+$ cp spike spike_dut 
+
+$ mv spike spike_control 
