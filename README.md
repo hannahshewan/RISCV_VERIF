@@ -8,7 +8,7 @@ The hypothesis library in python allows testing of edge cases and provides shrin
 In this proof of concept, linear programs (instructions that are executed line by line without jumps) are generated and a subset of non-linear programs. More exhausive testing of depth can also be explored. 
 
 For a full write up, see Property Based Testing with Hypothesis 1.10.2021 
-For an alternative class structure, see Changes With Block Hierarchy file
+For an alternative class structure, see Changes With Block Classes Defined file
  
 # Tools for the testing environment:
 1. Spike (an emulator) can be cloned and built following instructions on https://github.com/riscv-software-src/riscv-isa-sim
