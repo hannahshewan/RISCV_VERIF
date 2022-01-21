@@ -11,7 +11,7 @@ For a full write up, see Property Based Testing with Hypothesis 1.10.2021
 
 For an alternative class structure, see Changes With Block Classes Defined file
  
-# Tools for the testing environment:
+# Tools for the testing environment (see setup file): 
 1. Spike (an emulator) can be cloned and built following instructions on https://github.com/riscv-software-src/riscv-isa-sim
 2. RISC-V toolchain: https://github.com/Imperas/riscv-toolchains
 3. Pseudo-kernel: https://github.com/riscv-software-src/riscv-pk
